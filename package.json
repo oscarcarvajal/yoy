@@ -1,0 +1,26 @@
+{
+  "name": "yoy",
+  "version": "1.0.0",
+  "description": "Project for party",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarcarvajal/yoy.git"
+  },
+  "type": "module",
+  "author": "Oscar Carvajal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarcarvajal/yoy/issues"
+  },
+  "homepage": "https://github.com/oscarcarvajal/yoy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
