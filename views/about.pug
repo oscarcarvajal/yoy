@@ -1,3 +1,29 @@
 extends ./layout/index
 block content 
-    p Home
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/1.jpg", alt="About us", class="img-fluid")
+            .col-md-7
+                h1 #{page}
+                blockquote  Sed cursus consectetur risus. Morbi lobortis purus at ex varius, eget interdum libero tempus. Sed molestie tellus id elit congue, in mattis dolor imperdiet. Integer enim tortor, interdum sed nibh quis, scelerisque convallis tellus. Sed vehicula, risus consequat sollicitudin suscipit, metus nibh scelerisque mi, sit amet consectetur neque ipsum vitae lectus. Ut in neque urna. Morbi sed tincidunt felis. Sed eleifend luctus odio. Maecenas pellentesque eros vitae tempus viverra. Donec eget ullamcorper nunc, non imperdiet nisi.
+
+                p Suspendisse augue magna, commodo ac orci quis, mollis faucibus lectus. Proin lacinia nisi eu arcu convallis, eu feugiat nisl lobortis. Praesent ultricies nec sapien in finibus. Proin tincidunt augue tempus neque suscipit, ac laoreet dolor pharetra.
+
+                p est justo, tincidunt ac libero a, molestie rutrum massa. Praesent convallis odio vitae cursus varius. Ut feugiat, ante non viverra tempus, velit quam viverra tellus, vitae consectetur sem enim sit amet dui. Mauris nec mauris mauris. Quisque dapibus est quis vehicula imperdiet
+
+    .listado-iconos     
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Secure 
+                    p Sed cursus consectetur risus. Morbi lobortis purus at ex varius, eget interdum libero tempus.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destino", class="img-fluid mb-4")
+                    h2.mb-4 Best Parties
+                    p consectetur Sed cursus risus. Morbi lobortis purus at ex varius, eget interdum libero tempus.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Best Enviorment
+                    p cursus consectetur risus. Morbi lobortis purus at ex varius, eget interdum libero tempus.
