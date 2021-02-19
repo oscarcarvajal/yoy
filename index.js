@@ -9,6 +9,9 @@ const port = process.env.PORT || 4000;
 //Agregar router
 app.use('/', router);
 
+//Running pug
+app.set('view engine', 'pug');
+
 
 
 app.listen(port, () => {
