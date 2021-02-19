@@ -1,1 +1,11 @@
-p from footer
+footer.container.py-5 
+    .row 
+        .col-md-6 
+            nav.nav.footer.justify-content-center.justify-content-md-start 
+                a.nav-link(href="/about") About us                    
+                a.nav-link(href="/testimonials") Testimonials
+                a.nav-link(href="/contact") Contact 
+        .col 
+            p.copyright.text-center.text-md-right  
+                | Right Reserved 
+                span= actualYear
